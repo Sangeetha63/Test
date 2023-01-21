@@ -1,0 +1,183 @@
+1.
+iterable>
+collection>
+types of collection
+*list
+*set
+*sortedset
+&queue
+
+in list 2 types
+*linklist
+*Arraylist
+
+  Set  types
+*hashset
+*linkedhashset
+
+  sortedset
+*treeset
+
+  queue
+*linkedhashset
+
+main interface
+
+  list = *it is  a indexed based                      
+        *allow duplicates
+		*possiontal 
+		*insertion order
+		
+		
+	SET=*it is  not indexed based
+        *not allow duplicates
+		* not possiontal
+		* not insertion order	
+		
+		
+		
+		ARRAYLIST: it use internally arrays
+		           * faster in read operation
+				   *not in write operation
+		
+		
+		LinkedList: it use internally node
+		           * slower in read operation
+				   *faster in write operation
+		
+	2. MAP INTERFACES=
+* hashset
+*hashmap
+
+	hashmap:
+	*it  allow duplicates
+	*it implememnted by map	
+		
+		
+		hashset:
+		
+	*it  not allow duplicates
+	*it implememnted by set
+	
+		
+3.            Hash set                                                  tree set
+*The Hash set is executed with the help of a HashTable.	    *The tree set is executed with the help of a tree structure.
+*	It does not authorise a heterogeneous object.	          *    It authorises a heterogeneous object.
+*	It permits a null object.	                              *It does not permit the null object.
+*	To compare two objects, we use the equals method.	      * To compare two objects, we use the compare method.
+*	It does not support any order	                           * TreeSet supports an object in sorted order.	
+		
+	
+4. by array and linked set hashmap implememnted injava
+*by get and put operation its use hascode and equals method
+
+
+
+5. fail fast:The iterator in Java is used to traverse over a collection's objects. 
+   fail safe iterator:  A fail-safe iterator does not throw any exceptions unless it can
+                     handle if the collection is modified during the iteration process
+
+6.
+
+7. An object for traversing and partitioning elements of a source
+
+8.*Locate a character position within a string.
+ Locate a sequence of characters within a string.
+Copy a string.
+Concatenate strings.
+Compare strings.
+Translate a string.
+Measure a string.
+
+
+9.Spring core=Spring Framework is a widely used Java EE framework for building applications
+
+10. Dependency Injection is a fundamental aspect of the Spring framework, through which the Spring container 
+                 “injects” objects into other objects or “dependencies”
+				 it acheive my constuctor or setter method
+
+11.* @ComponentScan annotation is used to find beans and the corresponding injected with @Autowired annotation.
+
+
+12.yes
+13.               StringBuffer                                      StringBuilder
+
+     StringBuffer is synchronized i.e. thread safe.       	*StringBuilder is non-synchronized i.e. not thread safe.  
+	StringBuffer is less efficient than StringBuilder.	     *StringBuilder is more efficient than StringBuffer.
+	StringBuffer was introduced in Java 1.0	                  * StringBuilder was introduced in Java 1.5
+
+14. bean factory                              Application context
+ NoAnnotation support	                 YesAnnotation support
+ not Internationalization	                 Internationalization
+ not in Enterprise services	                    in Enterprise services
+
+15.*Spring AOP=aspects are implemented using regular classes  or 
+             regular classes annotated with the @Aspect annotation . 
+
+	*IOC= the Spring Framework implementation of the Inversion of Control (IoC)principle.
+	*POJO=	POJO in Java stands for Plain Old Java Object. 
+	      It is an ordinary object, which is not bound by any special restriction.
+	*@Component= to detect beans	
+	*@ComponentScan= to find beans	
+     *@Bean=returns beans
+
+16.  public class country{
+    public static void main(String args[]){
+
+     Map<String,Interger> map=new TreeMap<String,Interger>();
+     map.put("india", 53);
+    map.put("china",54);
+    map.forEach(m)->System.out.println(n +""+n);
+     map.forEach(n)->if (n.contains("india")){
+      System.out.println(n);
+}
+}
+}	 
+	 
+
+17.*maven:allows package executed jar.
+*gradle: it build tool.
+*tomcat:used for building web applications.	 
+*quarkus:optimizes java.
+*sonarqube:used to detect bugs.
+*server:used to run user applications.	 
+	 
+18.	 
+	
+
+20.public class Exercise13 {
+  public static void main(String[] args) {
+    
+     LinkedList<String> l_list = new LinkedList<String>();
+   
+          l_list.add("Red");
+          l_list.add("Green");
+          l_list.add("Black");
+          l_list.add("Pink");
+          l_list.add("orange");
+      
+    
+   System.out.println("The Original linked list: " + l_list);
+
+  
+    Object firstElement = l_list.removeFirst();
+    System.out.println("Element removed: "+ firstElement);
+ 
+  
+    Object lastElement = l_list.removeLast();
+    System.out.println("Element removed: "+ lastElement);
+    System.out.println("The New linked list: " + l_list);
+  }
+}
+
+
+
+
+
+
+
+
+	
+	 
+	 
+	 
